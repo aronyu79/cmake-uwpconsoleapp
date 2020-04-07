@@ -1,6 +1,4 @@
 cd build
-cmake ..  ^
-    --build ^
-    -Thost=x64 ^
+cmake --build . ^
     -- /m 
 cd ..
