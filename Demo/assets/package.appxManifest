@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Package
 	xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
 	xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
@@ -30,6 +30,7 @@
 				Square150x150Logo="Logo.png"
 				Square44x44Logo="SmallLogo44x44.png">
 				<uap:SplashScreen Image="SplashScreen.png" />
+				<uap:DefaultTile/>
 			</uap:VisualElements>
 			<Extensions>
 				<uap5:Extension Category="windows.appExecutionAlias" Executable="helloDemo.exe" EntryPoint="helloDemo.App">

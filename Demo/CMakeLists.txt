@@ -5,7 +5,7 @@ file(GLOB_RECURSE PATHED_ICON_FILES "assets/icons/*.png")
 foreach(PATHED ${PATHED_ICON_FILES})
     list(APPEND CONTENT_FILES ${PATHED})
 endforeach()
-
+list(APPEND CONTENT_FILES "assets/TemporaryKey.pfx")
 
 set_property(SOURCE ${CONTENT_FILES} PROPERTY VS_DEPLOYMENT_CONTENT 1)
 
